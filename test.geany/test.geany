@@ -1,0 +1,37 @@
+[indentation]
+indent_width=4
+indent_type=1
+indent_hard_tab_width=8
+detect_indent=false
+detect_indent_width=false
+indent_mode=2
+
+[project]
+name=test
+base_path=/home/tom/sketchbook/test.geany
+description=
+file_patterns=
+
+[long line marker]
+long_line_behaviour=1
+long_line_column=72
+
+[files]
+current_page=1
+FILE_NAME_0=0;C++;0;16;1;1;0;/home/tom/sketchbook/Motor/Schrittmotor.ino;0;4
+FILE_NAME_1=0;C++;0;16;1;1;0;/usr/share/arduino/examples/1.Basics/Blink/Blink.ino;0;4
+
+[VTE]
+last_dir=/
+
+[build-menu]
+C++FT_00_LB=_Kompilieren
+C++FT_00_CM=ino clean && ino build
+C++FT_00_WD=\s%d
+C++FT_01_LB=_Erstellen_Upload
+C++FT_01_CM=ino upload
+C++FT_01_WD=\s%d
+C++FT_02_LB=SerielMonitor
+C++FT_02_CM=ino serial
+C++FT_02_WD=\s%d
+filetypes=C++;
